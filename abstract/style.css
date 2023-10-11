@@ -1,0 +1,33 @@
+.hero-parent {
+  width: 100%;
+  height: auto;
+  background-color: #dadbf1;
+  padding: 1rem;
+}
+.hero-container {
+  padding: 1rem;
+}
+.hero-unit--large {
+    padding-top: 80px;
+    padding-bottom: 115px;
+}
+.btn > .btn-primary {
+background-color: #dadbf1 !important;
+}
+.arrow-svg {
+  fill: #000000;
+  transform: translateY(-50%);
+  position: absolute;
+  right: 20px;
+  bottom: -8px;
+  z-index: 1;
+  width: 28px;
+  z-index: 100;
+  transition: all .3s;
+}
+@media (min-width: 62rem) { 
+  .hero-container {
+    width: 60%;
+    margin: 0rem auto;
+  }
+ }
