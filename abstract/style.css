@@ -1,7 +1,7 @@
 @font-face {
   font-family: "Lexend"; 
   /* The name you want to use for the font */
-  src: url("./assets/Lexend.ttf") format("truetype");
+  src: url("/assets/Lexend-VariableFont_wght.ttf") format("truetype");
   /* You can include additional font file formats (e.g., .ttf, .eot) if needed */
   font-weight: normal; /* Font weight (e.g., normal, bold) */
   font-style: normal; /* Font style (e.g., normal, italic) */
@@ -16,6 +16,7 @@
 }
 body {
     min-height: 100vh;
+    font-family: 'Lexend', sans-serif;
 }
 img, picture, svg, video {
     display: block;
