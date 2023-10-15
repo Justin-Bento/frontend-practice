@@ -1,74 +1,82 @@
 @font-face {
-  font-family: "Lexend"; 
+  font-family: "Lexend";
   /* The name you want to use for the font */
   src: url("/assets/Lexend-VariableFont_wght.ttf") format("truetype");
   /* You can include additional font file formats (e.g., .ttf, .eot) if needed */
   font-weight: normal; /* Font weight (e.g., normal, bold) */
   font-style: normal; /* Font style (e.g., normal, italic) */
 }
-*, *::after, *::before {
-    box-sizing: border-box;
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
 }
 * {
-    margin: 0;
-    padding: 0;
-    font: inherit;
+  margin: 0;
+  padding: 0;
+  font: inherit;
 }
 body {
-    min-height: 100vh;
-    font-family: 'Lexend', sans-serif;
+  min-height: 100vh;
+  font-family: "Lexend", sans-serif;
 }
-img, picture, svg, video {
-    display: block;
-    max-width: 100%;
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
 }
-input, textarea, button, select {
-    font: inherit;
+input,
+textarea,
+button,
+select {
+  font: inherit;
 }
 .navbar {
-    color: #fff;
-    background-color: #000;
+  color: #fff;
+  background-color: #000;
 }
 .navbar-container {
-padding: 1.5rem;   
- display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 90%;
-    margin: 0rem auto;
-    max-width: 1900px;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0rem auto;
+  max-width: 1900px;
 }
 .navbar-actions {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    justify-content: flex-end;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: flex-end;
 }
 .navbar-actions > button:first-child {
-    background-color: #000;
-    border: 1px solid #fff;
-    color: #fff;
-    padding: 0.75rem 22px;    
-    font-weight: 100;
-    font-size: 17px;    
-    border-radius: 0.75rem;
+  background-color: #000;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 0.75rem 22px;
+  font-weight: 100;
+  font-size: 17px;
+  border-radius: 0.75rem;
 }
 .navbar-actions > button:last-child {
-    color:  #fff;
-    padding: 0.75rem 32px;    
-    font-weight: 100;
-    font-size: 17px;    
-    border-radius: 0.75rem;
-    background-color: #4C5FD5;
-    border: 1px solid #4C5FD5;
+  color: #fff;
+  padding: 0.75rem 32px;
+  font-weight: 100;
+  font-size: 17px;
+  border-radius: 0.75rem;
+  background-color: #4c5fd5;
+  border: 1px solid #4c5fd5;
 }
 .abstract-logo {
-    width: 100px;
-    height: auto;
-    fill: #fff;
+  width: 100px;
+  height: auto;
+  fill: #fff;
 }
 .navbar-wordmark {
-    display: flex;
-    align-items: center;
-     gap: 0.4rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
 }
