@@ -25,3 +25,8 @@ img, picture, svg, video {
 input, textarea, button, select {
     font: inherit;
 }
+.abstract-logo {
+    width: 100px;
+    height: auto;
+    fill: #000;
+}
