@@ -112,15 +112,20 @@ select {
   border-color: #4c5fd5;
 }
 .abstract-features {
-  width: 90%;
-  margin: 4rem auto;
+  width: 80%;
+  margin: 0rem auto;
   display: grid;
   gap: 4rem;
+  padding-top: 5rem; /* 80px */
+  padding-bottom: 8rem; /* 128px */
+  padding-left: calc(1rem * 5); /* 128px */
+  padding-right: calc(1rem * 5); /* 128px */
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 .feture-card-content > * {
   margin: 0rem;
   padding: 0rem;
+  font-size: 20px;
 }
 .feature-card {
   display: flex;
@@ -134,14 +139,21 @@ select {
     max-width: 100%;
     height: auto;
 }
+.feture-card-content  {
+ display: flex;
+ flex-direction: column;
+ gap: 0.5rem;
+}
 .feture-card-content > h2 {
-  font-size: 1.125rem; /* 18px */
+  font-size: 1.25rem; /* 18px */
   line-height: 1.75rem; /* 28px */
   font-weight: 700; /* Semi bold */
+  text-transform: capitalize;
 }
 .feture-card-content > p {
   font-size: 0.875; /* 14px */
   line-height: 1.5rem; /* 24px */
+  opacity: 0.7;
 }
 .feture-card-content > a {
   font-size: 1rem; /* 16px */
