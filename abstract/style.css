@@ -111,3 +111,41 @@ select {
 .hero-container > input[type="search"]:focus {
   border-color: #4c5fd5;
 }
+.abstract-features {
+  width: 90%;
+  margin: 4rem auto;
+  display: grid;
+  gap: 4rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.feture-card-content > * {
+  margin: 0rem;
+  padding: 0rem;
+}
+.feature-card {
+  display: flex;
+  align-items: start;
+  gap: 2rem;
+}
+.feture-card-media {
+    max-width: 120px;
+}
+.feture-card-media > img {
+    max-width: 100%;
+    height: auto;
+}
+.feture-card-content > h2 {
+  font-size: 1.125rem; /* 18px */
+  line-height: 1.75rem; /* 28px */
+  font-weight: 700; /* Semi bold */
+}
+.feture-card-content > p {
+  font-size: 0.875; /* 14px */
+  line-height: 1.5rem; /* 24px */
+}
+.feture-card-content > a {
+  font-size: 1rem; /* 16px */
+  line-height: 1.5rem; /* 24px */
+  color: #4c5fd5;
+  font-weight: 400;
+}
