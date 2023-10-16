@@ -133,16 +133,16 @@ select {
   gap: 2rem;
 }
 .feture-card-media {
-    max-width: 120px;
+  max-width: 120px;
 }
 .feture-card-media > img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
-.feture-card-content  {
- display: flex;
- flex-direction: column;
- gap: 0.5rem;
+.feture-card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 .feture-card-content > h2 {
   font-size: 1.25rem; /* 18px */
