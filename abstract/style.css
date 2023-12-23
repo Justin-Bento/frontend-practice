@@ -1,0 +1,163 @@
+@font-face {
+  font-family: "Lexend";
+  /* The name you want to use for the font */
+  src: url("/assets/Lexend-VariableFont_wght.ttf") format("truetype");
+  /* You can include additional font file formats (e.g., .ttf, .eot) if needed */
+  font-weight: normal; /* Font weight (e.g., normal, bold) */
+  font-style: normal; /* Font style (e.g., normal, italic) */
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+body {
+  min-height: 100vh;
+  font-family: "Lexend", sans-serif;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+textarea,
+button,
+select {
+  font: inherit;
+}
+.navbar {
+  color: #fff;
+  background-color: #000;
+}
+.navbar-container {
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0rem auto;
+  max-width: 1900px;
+}
+.navbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: flex-end;
+}
+.navbar-actions > button:first-child {
+  background-color: #000;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 0.75rem 22px;
+  font-weight: 100;
+  font-size: 17px;
+  border-radius: 0.75rem;
+}
+.navbar-actions > button:last-child {
+  color: #fff;
+  padding: 0.75rem 32px;
+  font-weight: 100;
+  font-size: 17px;
+  border-radius: 0.75rem;
+  background-color: #4c5fd5;
+  border: 1px solid #4c5fd5;
+}
+.abstract-logo {
+  width: 100px;
+  height: auto;
+  fill: #fff;
+}
+.navbar-wordmark {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.hero-banner {
+  width: 100%;
+  min-height: 40vh;
+  background-color: #dadbf1;
+  position: relative;
+}
+.hero-container {
+  position: absolute;
+  left: 30%;
+  right: 30%;
+  top: 20%;
+}
+.hero-container > h1 {
+  font-size: 70px;
+  text-align: center;
+  margin-bottom: 2rem;
+  letter-spacing: -0.025em;
+}
+.hero-container > input[type="search"] {
+  width: 100%;
+  font-size: 1.063rem;
+  border-radius: 0.25rem;
+  height: 60px;
+  text-align: start;
+  padding: 1rem;
+  border: 1.7px solid rgba(0, 0, 0, 1);
+  box-shadow: 0 9px 14px 0 rgba(0, 0, 0, 0.1);
+}
+.hero-container > input[type="search"]:focus {
+  border-color: #4c5fd5;
+}
+.abstract-features {
+  width: 80%;
+  margin: 0rem auto;
+  display: grid;
+  gap: 4rem;
+  padding-top: 5rem; /* 80px */
+  padding-bottom: 8rem; /* 128px */
+  padding-left: calc(1rem * 5); /* 128px */
+  padding-right: calc(1rem * 5); /* 128px */
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.feture-card-content > * {
+  margin: 0rem;
+  padding: 0rem;
+  font-size: 20px;
+}
+.feature-card {
+  display: flex;
+  align-items: start;
+  gap: 2rem;
+}
+.feture-card-media {
+  max-width: 120px;
+}
+.feture-card-media > img {
+  max-width: 100%;
+  height: auto;
+}
+.feture-card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.feture-card-content > h2 {
+  font-size: 1.25rem; /* 18px */
+  line-height: 1.75rem; /* 28px */
+  font-weight: 700; /* Semi bold */
+  text-transform: capitalize;
+}
+.feture-card-content > p {
+  font-size: 0.875; /* 14px */
+  line-height: 1.5rem; /* 24px */
+  opacity: 0.7;
+}
+.feture-card-content > a {
+  font-size: 1rem; /* 16px */
+  line-height: 1.5rem; /* 24px */
+  color: #4c5fd5;
+  font-weight: 400;
+}
