@@ -71,6 +71,24 @@ em {
     End of Stylesheet Reset
   ============================================================
 */
+.business {
+  padding: 0.5rem;
+  background: var(--sky-600);
+}
+.business > * {
+  font-size: 0.875rem; /* 14px */
+  line-height: 1.25rem; /* 20px */
+  color: var(--neutral-50);
+}
+.business-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.business-contact {
+  display: flex;
+  gap: 1rem;
+}
 .appbar {
   box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
   padding: 1rem;
@@ -134,6 +152,11 @@ em {
 }
 
 @media (min-width: 1024px) { 
+  .business-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
   .appbar-container {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
