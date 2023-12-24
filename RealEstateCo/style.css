@@ -226,16 +226,52 @@ em {
     End of hero
   ============================================================
 */
-/* .properties-container {
-  
-} */
+
+/* .properties-container {} */
+
 .properties-container h2 {
   font-size: 1.875rem; /* 30px */
   line-height: 2.25rem; /* 36px */
 }
 /*   
   ============================================================ 
-    End of features
+    properties-container
+  ============================================================
+*/
+
+/* .benifits-container {} */
+
+.benifits-container h3 {
+  font-size: 1.875rem; /* 30px */
+  line-height: 2.25rem; /* 36px */
+}
+/*   
+  ============================================================ 
+    benifits-container
+  ============================================================
+*/
+
+/* .listings-container {} */
+
+.listings-container h4 {
+  font-size: 1.875rem; /* 30px */
+  line-height: 2.25rem; /* 36px */
+}
+/*   
+  ============================================================ 
+    listings-container
+  ============================================================
+*/
+
+/* .callToAction-container {} */
+
+.callToAction-container h5 {
+  font-size: 1.875rem; /* 30px */
+  line-height: 2.25rem; /* 36px */
+}
+/*   
+  ============================================================ 
+    callToAction-container
   ============================================================
 */
 footer {
