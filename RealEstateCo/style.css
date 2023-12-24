@@ -134,7 +134,7 @@ em {
   display: flex;
   justify-content: flex-start;
 }
-.appbar-actions  a {
+.appbar-actions a {
   display: inline-flex;
   transition: background-color, border-color, color, fill, stroke;
   color: var(--sky-50);
@@ -151,7 +151,7 @@ em {
   background-color: var(--sky-700);
 }
 
-@media (min-width: 1024px) { 
+@media (min-width: 1024px) {
   .business-container {
     display: flex;
     align-items: center;
@@ -172,4 +172,4 @@ em {
   .appbar-brand p:last-of-type {
     display: none;
   }
- }
+}
