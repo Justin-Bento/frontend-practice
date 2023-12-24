@@ -173,3 +173,42 @@ em {
     display: none;
   }
 }
+/*   
+  ============================================================ 
+    End of header
+  ============================================================
+*/
+.hero {
+  position: relative;
+  overflow: hidden;
+}
+.hero-media {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: fill;
+  object-position: center;
+  min-height: 100vh;
+}
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Adjust the alpha (last value) for the overlay transparency */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.overlay h1 {
+  font-size: 36px;
+}
+@media (min-width: 1024px) {
+  .hero-media {
+    aspect-ratio: 16/9;
+  }
+}
