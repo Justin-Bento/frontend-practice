@@ -71,6 +71,13 @@ em {
     End of Stylesheet Reset
   ============================================================
 */
+.wrapper {
+  max-width: 80rem;
+  margin: 0rem auto;
+}
+.spapcer {
+  padding: 4rem 0rem;
+}
 .business {
   padding: 0.5rem;
   background: var(--sky-600);
@@ -204,11 +211,33 @@ em {
   text-align: center;
 }
 
-.overlay h1 {
-  font-size: 36px;
+.hero-overlay h1 {
+  font-size: 1.875rem; /* 30px */
+  line-height: 2.25rem; /* 36px */
 }
 @media (min-width: 1024px) {
   .hero-media {
     aspect-ratio: 16/9;
   }
+}
+
+/*   
+  ============================================================ 
+    End of hero
+  ============================================================
+*/
+/* .properties-container {
+  
+} */
+.properties-container h2 {
+  font-size: 1.875rem; /* 30px */
+  line-height: 2.25rem; /* 36px */
+}
+/*   
+  ============================================================ 
+    End of features
+  ============================================================
+*/
+footer {
+  background: var(--neutral-950);
 }
