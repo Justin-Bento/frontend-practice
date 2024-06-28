@@ -2,8 +2,15 @@
   margin: 0rem;
   padding: 0rem;
   box-sizing: border-box;
+  font-family: Supreme-Variable, Arial, Helvetica, sans-serif;
 }
-
+@font-face {
+  font-family: 'Supreme-Variable';
+  src: url('/assets/fonts/Supreme-Variable.ttf') format('truetype');
+  font-weight: 100 800;
+  font-display: swap;
+  font-style: normal;
+}
 /* mobile-navbar {} */
 .header-contactInfo {
   display: none;
@@ -113,9 +120,13 @@
 
 .hero-content--gridItem1 h1 {
   color: #efefef;
+  font-size: 3rem; /* 48px */
+  line-height: 1;
 }
 .hero-content--gridItem1 p {
   color: #efefef;
+  font-size: 1rem; /* 16px */
+  line-height: 1.5rem; /* 24px */
 }
 .hero-content--gridItem1 button {
   color: #020617;
