@@ -1,3 +1,28 @@
+:root {
+  --black: #09090b;
+  --white: #fafafa;
+  --gray-100: #f4f4f5;
+  --gray-200: #e4e4e7;
+  --gray-300: #d4d4d8;
+  --gray-400: #a1a1aa;
+  --gray-500: #71717a;
+  --gray-600: #52525b;
+  --gray-700: #3f3f46;
+  --gray-800: #27272a;
+  --gray-900: hsl(240, 6%, 10%);
+  --overlay: hsla(240, 6%, 10%, 0.8);
+  --matisse-50: #f0faff;
+  --matisse-100: #e0f3fe;
+  --matisse-200: #bae5fd;
+  --matisse-300: #7dcffc;
+  --matisse-400: #38b4f8;
+  --matisse-500: #0e9be9;
+  --matisse-600: #0281c7;
+  --matisse-700: #0369a1;
+  --matisse-800: #075885;
+  --matisse-900: #0c4b6e;
+  --matisse-950: #083249;
+}
 * {
   margin: 0rem;
   padding: 0rem;
@@ -24,7 +49,7 @@
     gap: 2rem;
     padding: 0.475rem;
     background-color: #0369a1;
-    color: hsl(199, 89%, 98%);
+    color: var(--white);
     font-size: 0.875rem;
   }
 }
@@ -35,7 +60,7 @@
   grid-template-columns: repeat(1, 1fr);
   box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
   border-width: 2px;
-  border-color: rgb(212 212 216);
+  border-color: var(--white);
   padding: 0.875rem;
 }
 .navbar-infoBrand {
@@ -53,7 +78,7 @@
   padding: 0.75rem;
   background: transparent;
   text-decoration: none;
-  color: #020617;
+  color: var(--black);
 }
 .navbar-infoLinks > a:hover {
   text-decoration: underline;
@@ -65,7 +90,7 @@
 .navbar-infoAction button {
   display: flex;
   align-items: center;
-  color: whitesmoke;
+  color: var(--white);
   background: #0369a1;
   border: 1px solid #0369a1;
   border-radius: 0.2rem;
@@ -108,7 +133,6 @@
   height: 100%;
   display: grid;
   place-content: center;
-  background-color: rgb(0 0 0 / 0.7);
   position: absolute;
   z-index: 0;
 }
@@ -119,27 +143,27 @@
 }
 
 .hero-content--gridItem1 h1 {
-  color: #efefef;
+  color: var(--white);
   font-size: 3rem; /* 48px */
   line-height: 1;
   text-wrap: balance;
 }
 .hero-content--gridItem1 p {
-  color: #efefef;
+  color: var(--white);
   font-size: 1rem; /* 16px */
   line-height: 1.5rem; /* 24px */
   margin-top: 0.5rem;
 }
 .hero-content--gridItem1 button {
   margin-top: 1.5rem;
-  color: #020617;
+  color: var(--black);
   padding: 0.75rem 0.625rem;
   border-radius: 0.125rem;
   border: transparent;
 }
 .hero-content--gridItem2 {
   min-height: 20rem;
-  background-color: wheat;
+  background-color: var(--white);
 }
 .body-text {
   font-size: 1rem;
@@ -149,7 +173,7 @@
 .hero-overlay {
   width: 100%;
   height: 100%;
-  background-color: rgb(0 0 0 / 0.05);
+  background-color: var(--overlay);
   position: absolute;
   z-index: -10;
 }
@@ -157,7 +181,7 @@
 .hero-media {
   width: 100%;
   height: 100%;
-  background-color: aliceblue;
+  background-color: var(--white);
   position: absolute;
   z-index: -20;
 }
