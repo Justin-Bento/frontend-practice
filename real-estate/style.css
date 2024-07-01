@@ -182,8 +182,27 @@ p {
   border: transparent;
 }
 .hero-content--gridItem2 {
+  /* This is for the filter pannel inside grid */
   min-height: 20rem;
   background-color: var(--white);
+  padding: 3rem;
+  border-radius: 2rem; /* 12px */
+}
+
+.hero-content--gridItem2 h2 {
+  font-size: 1.5rem; /* 24px */
+  line-height: 2rem; /* 32px */
+  color: var(--black);
+}
+.hero-content--gridItem2 p {
+  color: var(--black);
+  font-size: 1rem; /* 16px */
+  line-height: 1.5rem; /* 24px */
+  letter-spacing: 0.025em;
+  margin: 0rem;
+  padding: 0rem;
+  border-radius: 0.5rem;
+  border-color: var(--gray-500);
 }
 
 @media (min-width: 1024px) {
