@@ -36,6 +36,10 @@
   font-display: swap;
   font-style: normal;
 }
+p {
+  font-size: 1rem;
+  text-wrap: balance;
+}
 /* mobile-navbar {} */
 .header-contactInfo {
   display: none;
@@ -136,6 +140,22 @@
   position: absolute;
   z-index: 0;
 }
+/* Content section refers to the filter layer above the image. */
+.hero-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: var(--overlay);
+  position: absolute;
+  z-index: -10;
+}
+/* Content section refers to the filter layer above the image. */
+.hero-media {
+  width: 100%;
+  height: 100%;
+  background-color: var(--white);
+  position: absolute;
+  z-index: -20;
+}
 .hero-content--grid {
   display: grid;
   align-items: start;
@@ -164,26 +184,6 @@
 .hero-content--gridItem2 {
   min-height: 20rem;
   background-color: var(--white);
-}
-.body-text {
-  font-size: 1rem;
-  text-wrap: balance;
-}
-/* Content section refers to the filter layer above the image. */
-.hero-overlay {
-  width: 100%;
-  height: 100%;
-  background-color: var(--overlay);
-  position: absolute;
-  z-index: -10;
-}
-/* Content section refers to the filter layer above the image. */
-.hero-media {
-  width: 100%;
-  height: 100%;
-  background-color: var(--white);
-  position: absolute;
-  z-index: -20;
 }
 
 @media (min-width: 1024px) {
