@@ -216,6 +216,16 @@ form div {
 form div:first-of-type {
   margin-top: 2rem;
 }
+form div input[type="text"] {
+  width: 100%;
+  font-size: 0.875rem; /* 14px */
+  line-height: 1.25rem; /* 20px */
+  padding: 0.5rem 0.5rem; /* 16px */
+  border: 1px solid var(--gray-300);
+  border-radius: 0.25rem; /* 8px */
+  color: var(--gray-700);
+}
+
 form .price-range span {
   display: flex;
   align-items: center;
