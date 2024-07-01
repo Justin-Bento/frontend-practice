@@ -204,6 +204,21 @@ p {
   border-radius: 0.5rem;
   border-color: var(--gray-500);
 }
+form {
+  margin: 2rem 0rem;
+}
+form div {
+  display: flex;
+  gap: 0.25rem;
+  align-items: start;
+  flex-direction: column;
+}
+form div:first-of-type {
+  margin-top: 2rem;
+}
+form div:last-of-type {
+  margin-top: 2rem;
+}
 
 @media (min-width: 1024px) {
   #hero {
