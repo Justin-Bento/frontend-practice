@@ -216,6 +216,20 @@ form div {
 form div:first-of-type {
   margin-top: 2rem;
 }
+form .price-range span {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+form .price-range span p {
+  font-size: 0.875rem; /* 14px */
+  line-height: 0.875rem; /* 20px */
+  text-transform: capitalize;
+  letter-spacing: -0.025em;
+  }
+
+
 form div:last-of-type {
   margin-top: 2rem;
 }
