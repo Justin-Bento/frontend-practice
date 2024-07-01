@@ -278,7 +278,7 @@ form div:last-of-type {
 
 @media (min-width: 1024px) {
   #hero {
-    height: 85dvh;
+    min-height: 85dvh;
   }
   .hero-content--grid {
     display: grid;
