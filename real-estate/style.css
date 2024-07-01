@@ -237,6 +237,7 @@ form div input[type="range"] {
   border-radius: 100rem;
   transition: opacity .2s;
 }
+
 form .price-range span {
   display: flex;
   align-items: center;
@@ -250,7 +251,15 @@ form .price-range span p {
   letter-spacing: -0.025em;
   }
 
-
+  form div input[type="submit"] {
+    display: flex;
+    align-items: center;
+    color: var(--white);
+    background: var(--matisse-600);
+    border: 1px solid var(--matisse-600);
+    border-radius: 0.2rem;
+    padding: 0.625rem 0.875rem;
+  }
 form div:last-of-type {
   margin-top: 2rem;
 }
