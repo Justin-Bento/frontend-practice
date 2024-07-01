@@ -212,6 +212,15 @@ form div {
   gap: 0.25rem;
   align-items: start;
   flex-direction: column;
+  margin-top: 1rem;
+}
+form div label {
+  font-size: 0.875rem; /* 14px */
+  line-height: 1.25rem; /* 20px */
+  letter-spacing: -0.025em;
+  font-weight: 600;
+  color: var(--gray-700);
+  margin-bottom: 0.25rem;
 }
 form div:first-of-type {
   margin-top: 2rem;
@@ -243,6 +252,9 @@ form .price-range span {
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  color: var(--gray-700);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
 }
 form .price-range span p {
   font-size: 0.875rem; /* 14px */
