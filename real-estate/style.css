@@ -149,7 +149,6 @@ p {
   transform: translate(-50%, -50%);
   z-index: 2; /* Ensure content is on top */
   color: white; /* Adjust text color for readability */
-  text-align: center; /* Center the text */
 }
 
 .hero-filter {
