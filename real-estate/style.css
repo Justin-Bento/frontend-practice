@@ -87,11 +87,6 @@ p {
 .menuSelector {
   display: none;
 }
-/* .navbar-infoLinks {
-  display: flex;
-  flex-direction: column;
-  gap: 0.25rem;
-} */
 .navbarInfoLinks > a {
   padding: 0.75rem;
   background: transparent;
