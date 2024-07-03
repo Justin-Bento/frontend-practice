@@ -292,3 +292,23 @@ form div:last-of-type {
     margin: 0rem auto;
   }
 }
+
+/* Featured Properties: Start */
+
+/* Featured Properties: Mobile Version */
+.featuredProperties {
+  max-width: 95%;
+  margin: 4rem auto;
+}
+.featuredPropertiesGrid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(1, 1fr);
+  margin-top: 1rem;
+}
+.featuredPropertiesGrid div {
+  padding: 1rem;
+  border: 1px solid black;
+}
+/* Featured Properties: Tablet Version */
+/* Featured Properties: Desktop Version */
