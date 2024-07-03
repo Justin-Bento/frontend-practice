@@ -74,10 +74,13 @@ p {
   padding: 0.75rem;
 }
 .navbar-infoLinks {
+  display: none;
+}
+/* .navbar-infoLinks {
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
-}
+} */
 .navbar-infoLinks > a {
   padding: 0.75rem;
   background: transparent;
