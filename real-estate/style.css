@@ -49,7 +49,6 @@ h3 {
 p {
   font-size: 1rem; /* 16px */
   line-height: 1.5rem; /* 24px */
-  text-wrap: balance;
 }
 
 /* mobile-navbar {} */
@@ -117,7 +116,6 @@ p {
 }
 
 @media (min-width: 768px) {
-
   .navbarInfo {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -241,7 +239,7 @@ form div label {
 form div:first-of-type {
   margin-top: 2rem;
 }
-form div input[type="text"] {
+form div input[type='text'] {
   width: 100%;
   font-size: 0.875rem; /* 14px */
   line-height: 1.25rem; /* 20px */
@@ -250,17 +248,17 @@ form div input[type="text"] {
   border-radius: 0.25rem; /* 8px */
   color: var(--gray-700);
 }
-form div input[type="range"] {
-  -webkit-appearance: none;  /* Override default CSS styles */
+form div input[type='range'] {
+  -webkit-appearance: none; /* Override default CSS styles */
   appearance: none;
   width: 100%; /* Full-width */
   height: 15px; /* Specified height */
   background: #d3d3d3; /* Grey background */
   outline: none; /* Remove outline */
   opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
-  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  -webkit-transition: 0.2s; /* 0.2 seconds transition on hover */
   border-radius: 100rem;
-  transition: opacity .2s;
+  transition: opacity 0.2s;
 }
 
 form .priceRange span {
@@ -277,17 +275,17 @@ form .priceRange span p {
   line-height: 0.875rem; /* 20px */
   text-transform: capitalize;
   letter-spacing: -0.025em;
-  }
+}
 
-  form div input[type="submit"] {
-    display: flex;
-    align-items: center;
-    color: var(--white);
-    background: var(--matisse-600);
-    border: 1px solid var(--matisse-600);
-    border-radius: 0.2rem;
-    padding: 0.625rem 0.875rem;
-  }
+form div input[type='submit'] {
+  display: flex;
+  align-items: center;
+  color: var(--white);
+  background: var(--matisse-600);
+  border: 1px solid var(--matisse-600);
+  border-radius: 0.2rem;
+  padding: 0.625rem 0.875rem;
+}
 form div:last-of-type {
   margin-top: 2rem;
 }
@@ -327,7 +325,7 @@ form div:last-of-type {
 /* Featured Properties: Tablet Version */
 @media (min-width: 768px) {
   .featuredPropertiesGrid {
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
