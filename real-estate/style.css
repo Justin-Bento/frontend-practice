@@ -179,9 +179,18 @@ p {
   color: var(--white);
 }
 .hero-grid-item:first-of-type h1 {
-  font-size: 3rem; /* 48px */
-  line-height: 1;
+  font-size: 2.25rem; /* 36px */
+  line-height: 2.5rem; /* 40px */
   letter-spacing: -0.025em;
+  text-wrap: pretty;
+}
+.hero-grid-item:first-of-type p {
+  line-height: 1.75rem; /* 28px */
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  text-wrap: pretty;
 }
 .hero-grid-item:first-of-type button {
   color: var(--black);
