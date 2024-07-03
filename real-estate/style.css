@@ -319,8 +319,18 @@ form div:last-of-type {
   margin-top: 1rem;
 }
 .featuredPropertiesGrid div {
-  padding: 1rem;
-  border: 1px solid black;
+  padding: 2rem;
+  border: 1px solid var(--gray-200);
+  border-radius: 0.5rem; /* 8px */
+  background-color: var(--gray-100);
 }
 /* Featured Properties: Tablet Version */
-/* Featured Properties: Desktop Version */
+@media (min-width: 768px) {
+  .featuredPropertiesGrid {
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
+/* Featured Properties: Desktop Version 
+    @media (min-width: 1024px) {}
+*/
