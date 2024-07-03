@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css" />
     <title>Realestate</title>
+    <script defer src="./script.js"></script>
 </head>
 
 <body>
@@ -65,9 +66,9 @@
                             <div class="price-range">
                                 <span>
                                     <p>Price range</p>
-                                    <p id="price-range">Number</p>
+                                    <p id="range-value">Number</p>
                                 </span>
-                                <input value="hello world" type="range" />
+                                <input type="range" value="5000" id="price-range" min="0" max="10000" value="5000" />
                             </div>
                             <div class="">
                                 <input type="submit" value="Search Properties">
@@ -82,7 +83,6 @@
         </section>
         <!-- Section End: Hero -->
     </main>
-    <script src="./script.js"></script>
 </body>
 
 </html>
