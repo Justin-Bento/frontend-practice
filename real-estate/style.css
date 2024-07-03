@@ -132,9 +132,9 @@ p {
   }
 }
 
-/* Landing Page Home • Start */
+/* Hero Page Home • Start */
 
-/* Landing Page Home • Mobile */
+/* Hero Page Home • Mobile */
 #hero {
   position: relative;
   width: 100%;
@@ -267,7 +267,7 @@ form div:last-of-type {
   z-index: 0; /* Ensure image is at the bottom */
 }
 
-/* Landing Page Home • Desktop */
+/* Hero Page Home • Desktop */
 @media (min-width: 724px) {
   .hero-grid {
     grid-template-columns: repeat(2, 1fr);
