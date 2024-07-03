@@ -155,7 +155,7 @@ p {
 #hero {
   position: relative;
   width: 100%;
-  min-height: 100svh; /* Adjust as needed */
+  min-height: 140svh; /* Adjust as needed */
   overflow: hidden;
 }
 
@@ -286,6 +286,9 @@ form div:last-of-type {
 
 /* Hero Page Home • Desktop */
 @media (min-width: 724px) {
+  #hero {
+    min-height: 100svh; /* Adjust as needed */
+  }
   .hero-grid {
     grid-template-columns: repeat(2, 1fr);
   }
