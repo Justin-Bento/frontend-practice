@@ -333,3 +333,13 @@ form div:last-of-type {
 /* Featured Properties: Desktop Version 
     @media (min-width: 1024px) {}
 */
+
+/* Featured Properties: Ultra Wide Monitors  
+    @media (min-width: 1536px) {}
+*/
+
+@media (min-width: 1536px) {
+  .featuredPropertiesGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
