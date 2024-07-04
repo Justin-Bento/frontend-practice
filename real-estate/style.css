@@ -332,6 +332,19 @@ form div:last-of-type {
   object-fit: cover;
   object-position: center;
 }
+.featuredPropertiesGrid .cardContent {
+  padding: 1rem 2rem;
+}
+.featuredPropertiesGrid .cardContent h3 {
+  font-size: 1.25rem; /* 20px */
+  line-height: 1.125;
+  margin-bottom: 0.35rem;
+}
+.featuredPropertiesGrid .cardContent p {
+  font-size: 1rem; /* 16px */
+  line-height: 1.75rem; /* 28px */
+  line-height: 1.5;
+}
 /* Featured Properties: Tablet Version */
 @media (min-width: 768px) {
   .featuredPropertiesGrid {
