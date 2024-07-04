@@ -345,8 +345,21 @@ form div:last-of-type {
   font-size: 1rem; /* 16px */
   line-height: 1.75rem; /* 28px */
   line-height: 1.5;
+  margin-top: 0.5rem;
 }
-/* Featured Properties: Tablet Version */
+.featuredPropertiesGrid .cardContent button {
+  font-size: 0.875rem; /* 16px */
+  line-height: 1.75rem; /* 28px */
+  border: transparent;
+  background-color: transparent;
+  margin-top: 0.75rem;
+  padding: 0.35rem 0rem 0.35rem 0rem;
+}
+.featuredPropertiesGrid .cardContent button:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 @media (min-width: 768px) {
   .featuredPropertiesGrid {
     grid-template-columns: repeat(2, 1fr);
