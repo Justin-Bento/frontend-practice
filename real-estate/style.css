@@ -318,10 +318,19 @@ form div:last-of-type {
   margin-top: 1rem;
 }
 .featuredPropertiesGrid .card {
-  padding: 2rem;
   border-radius: 0.5rem; /* 8px */
   border: 1px solid var(--gray-300);
   background-color: var(--gray-200);
+}
+.featuredPropertiesGrid .cardMedia {
+  position: relative;
+}
+.featuredPropertiesGrid .cardMedia img {
+  border-radius: 0rem 0.5rem; /* 8px */
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  object-position: center;
 }
 /* Featured Properties: Tablet Version */
 @media (min-width: 768px) {
