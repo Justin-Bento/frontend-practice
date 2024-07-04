@@ -317,11 +317,11 @@ form div:last-of-type {
   grid-template-columns: repeat(1, 1fr);
   margin-top: 1rem;
 }
-.featuredPropertiesGrid div {
+.featuredPropertiesGrid .card {
   padding: 2rem;
-  border: 1px solid var(--gray-200);
   border-radius: 0.5rem; /* 8px */
-  background-color: var(--gray-100);
+  border: 1px solid var(--gray-300);
+  background-color: var(--gray-200);
 }
 /* Featured Properties: Tablet Version */
 @media (min-width: 768px) {
