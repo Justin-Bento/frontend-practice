@@ -379,7 +379,7 @@ select {
     @media (min-width: 1536px) {}
 */
 
-@media (min-width: 1536px) {
+@media (min-width: 1236px) {
   .featured-properties-grid {
     grid-template-columns: repeat(3, 1fr);
   }
