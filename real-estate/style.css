@@ -36,7 +36,7 @@
 }
 body {
   min-height: 100vh;
-  font-family: "Lexend", sans-serif;
+  font-family: 'Lexend', sans-serif;
 }
 img,
 picture,
@@ -241,17 +241,17 @@ select {
   text-decoration: underline;
 }
 .hero-content-grid-item2 {
-  overflow: hidden; 
-  background-color: var(--white); 
-  border-radius: 0.5rem; 
+  overflow: hidden;
+  background-color: var(--white);
+  border-radius: 0.5rem;
   color: var(--black);
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06); 
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
   padding: 1.25rem 1rem;
 }
 .hero-content-grid-item2 h2 {
   font-size: 1.25rem; /* 24px */
   line-height: 2rem; /* 32px */
-  letter-spacing: -0.001rem; 
+  letter-spacing: -0.001rem;
   text-transform: capitalize;
   font-weight: 700;
 }
@@ -267,14 +267,14 @@ select {
   flex-direction: column;
   gap: 0.25rem;
 }
-.filter-range span{
+.filter-range span {
   display: flex;
   justify-content: space-between;
 }
-.filter-range input[type="range"] {
+.filter-range input[type='range'] {
   width: 100%;
 }
-.filer-submission input[type="submit"] {
+.filer-submission input[type='submit'] {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -290,7 +290,7 @@ select {
   margin-top: 1.5rem;
 }
 
-@media (min-width: 1280px) { 
+@media (min-width: 1280px) {
   .hero-content-grid {
     max-width: 1336px;
     margin: 0rem auto;
@@ -310,7 +310,7 @@ select {
 .featured-properties h2 {
   font-size: 2rem; /* 24px */
   line-height: 2rem; /* 32px */
-  letter-spacing: -0.001rem; 
+  letter-spacing: -0.001rem;
   text-transform: capitalize;
   font-weight: 700;
   margin-bottom: 1.5rem;
