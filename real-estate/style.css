@@ -24,6 +24,15 @@
   --matisse-950: #083249;
 }
 /* Style for the navigation bar */
+
+@font-face {
+  font-family: "Supreme";
+  /* The name you want to use for the font */
+  src: url("/real-estate/assets/fonts/Supreme-Variable.ttf") format("truetype");
+  /* You can include additional font file formats (e.g., .ttf, .eot) if needed */
+  font-weight: normal; /* Font weight (e.g., normal, bold) */
+  font-style: normal; /* Font style (e.g., normal, italic) */
+}
 *,
 *::after,
 *::before {
@@ -36,7 +45,7 @@
 }
 body {
   min-height: 100vh;
-  font-family: 'Lexend', sans-serif;
+  font-family: 'Supreme', sans-serif;
 }
 img,
 picture,
@@ -403,15 +412,22 @@ select {
   text-transform: capitalize;
   font-weight: 700;
   margin-bottom: 1rem;
+  text-wrap: balance;
+}
+.benifits-option p {
+  text-wrap: balance;
+  max-width: 48rem; /* 768px */
 }
 .benifits-option-explination {
   position: relative;
 }
 .benifits-option-explination img {
   width: 100%;
-  aspect-ratio: 16/9;
+  aspect-ratio: 1.12 / 1;
   background-color: red;
-  border-radius: 3rem;
+  border-radius: 0.75rem; /* 12px */
+  object-fit: cover;
+  object-position: center;
 }
 
 /* Featured Properties: Tablet Version 
