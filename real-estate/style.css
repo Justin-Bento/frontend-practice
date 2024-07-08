@@ -563,10 +563,10 @@ p {
   max-width: 40rem; /* 48px */
   margin: 0rem auto;
 }
-.cta-container span {
-  margin-top: 4rem;
+.cta-container div {
+  margin-top: 1.5rem;
 }
-.cta-container span button:first-of-type {
+.cta-container div button:first-of-type {
     display: inline-block;
     padding: 0.5rem 1rem;
     font-size: 1rem;
@@ -578,22 +578,22 @@ p {
     cursor: pointer;
     transition: background-color 0.2s, transform 0.2s;
 }
-.cta-container span button:hover {
+.cta-container div button:hover {
   background-color: var(--gray-800);
 }
 
-.cta-container span button:focus {
+.cta-container div button:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
   box-shadow: 0 0 0 2px var(--gray-800);
 }
 
-.cta-container span button:active {
+.cta-container div button:active {
   background-color: var(--gray-800);
   transform: translateY(0);
   text-decoration: underline;
 }
-.cta-container span button:last-of-type {
+.cta-container div button:last-of-type {
     display: inline-block;
     padding: 0.5rem 1rem;
     font-size: 1rem;
@@ -605,18 +605,18 @@ p {
     cursor: pointer;
     transition: background-color 0.2s, transform 0.2s;
 }
-.cta-container span button:hover {
+.cta-container div button:hover {
   background-color: var(--gray-800);
   border-color: var(--gray-800);
 }
 
-.cta-container span button:focus {
+.cta-container div button:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
   box-shadow: 0 0 0 2px var(--gray-800);
 }
 
-.cta-container span button:active {
+.cta-container div button:active {
   background-color: var(--gray-800);
   transform: translateY(0);
   text-decoration: underline;
