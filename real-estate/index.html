@@ -1,249 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="/real-estate/style.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <main>
-      <header class="navbar">
-        <div class="navbarContact">
-          <p>+1 268-720-88777</p>
-          <p>paramout-antigua@gmail.com</p>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="/real-estate/style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body>
+  <main>
+    <header class="navbar">
+      <div class="navbarContact">
+        <p>+1 268-720-88777</p>
+        <p>paramout-antigua@gmail.com</p>
+      </div>
+      <div class="navbarContent">
+        <div class="navbarBrand">
+          <p>logo</p>
+          <p id="navMenu">menu</p>
         </div>
-        <div class="navbarContent">
-          <div class="navbarBrand">
-            <p>logo</p>
-            <p id="navMenu">menu</p>
-          </div>
-          <nav class="navbarLinks menuSelector">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Properties</a>
-            <a href="#">Properties</a>
-            <a href="#">Contact</a>
-          </nav>
-          <div class="navbarAction menuSelector">
-            <button type="button">Book A Views</button>
-          </div>
+        <nav class="navbarLinks menuSelector">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Properties</a>
+          <a href="#">Properties</a>
+          <a href="#">Contact</a>
+        </nav>
+        <div class="navbarAction menuSelector">
+          <button type="button">Book A Views</button>
         </div>
-      </header>
-      <section id="hero" role="banner" aria-label="Hero Section">
-        <div class="hero-content">
-          <div class="hero-content-grid">
-            <div class="hero-content-grid-item">
-              <span>
-                <h1>Explore Your Dream Homes</h1>
-                <p>The Odin Project Real Estate</p>
-              </span>
-              <p>
-                Discover the perfect blend of comfort and style with The Odin Project Real Estate. From seaside retreats like Azure Hearth
-                to eco-friendly havens like Verdant Haven, find homes that suit your lifestyle. Explore our curated listings and start your
-                journey to finding your ideal home today.
-              </p>
-              <button>Hello World</button>
-            </div>
-            <!-- End of Hero Content -->
-            <div class="hero-content-grid-item2">
-              <h2>Filter through our property.</h2>
-              <form class="filter">
-                <legend class="filter-items">
-                  <label for="hello-world">Types of Properties</label>
-                  <input value="hello world" type="text" />
-                </legend>
-                <legend class="filter-items">
-                  <label for="hello-world">Property Locations</label>
-                  <input value="hello world" type="text" />
-                </legend>
-                <legend class="filter-items">
-                  <label for="hello-world">For Rent or For Sale</label>
-                  <input value="hello world" type="text" />
-                </legend>
-                <legend class="filter-range">
-                  <span>
-                    <p>Price range</p>
-                    <p id="range-value">Number</p>
-                  </span>
-                  <input type="range" value="5000" id="price-range" min="0" max="10000" value="5000" />
-                </legend>
-                <legend class="filer-submission">
-                  <input type="submit" value="Search Properties" />
-                </legend>
-              </form>
-            </div>
-          </div>
-        </div>
-        <div class="hero-filter"></div>
-        <div class="hero-media">
-          <img src="/real-estate/assets/image/hero-image.jpg" alt="Descriptive Alt Text" />
-        </div>
-      </section>
-      <!-- Section End: Hero -->
-      <section class="featured-properties">
-        <h2 class="">Featured Properties</h2>
-        <div class="featured-properties-grid">
-          <!-- Grid Items Represent Cards -->
-          <div class="card">
-            <div class="cardMedia">
-              <img
-                src="https://paramountpropertiesltd.net/wp-content/uploads/marina-bay-aerial-preview.jpg"
-                alt="This is a random property based in a caribbeans sunny and warm environment."
-              />
-            </div>
-            <div class="cardContent">
-              <h3>Azure Hearth.</h3>
-              <p>
-                Nestled by the tranquil sea, Azure Hearth is known for its stunning ocean views and soothing ambiance. The house features
-                expansive windows that let in the natural light, creating a serene atmosphere perfect for relaxation.
-              </p>
-              <button type="button" class="custom-button">Button text <span aria-hidden="true">&rarr;</span></button>
-            </div>
-          </div>
-          <div class="card">
-            <div class="cardMedia">
-              <img
-                src="https://paramountpropertiesltd.net/wp-content/uploads/north-villa-moon-preview.jpg"
-                alt="This is a random property based in a caribbeans sunny and warm environment."
-              />
-            </div>
-            <div class="cardContent">
-              <h3>Verdant Haven.</h3>
-              <p>
-                Surrounded by lush gardens and towering trees, Verdant Haven is a sanctuary for nature lovers. The house boasts eco-friendly
-                designs and an abundance of greenery both inside and out, offering a peaceful retreat.
-              </p>
-              <button type="button" class="custom-button">Button text <span aria-hidden="true">&rarr;</span></button>
-            </div>
-          </div>
-          <div class="card">
-            <div class="cardMedia">
-              <img
-                src="https://paramountpropertiesltd.net/wp-content/uploads/north-villa-sun-preview.jpg"
-                alt="This is a random property based in a caribbeans sunny and warm environment."
-              />
-            </div>
-            <div class="cardContent">
-              <h3>Stonegate Manor.</h3>
-              <p>
-                A stately and grand abode, Stonegate Manor exudes an air of timeless elegance. With its classic architectural design, this
-                house features spacious rooms, high ceilings, and intricate stonework.
-              </p>
-              <button type="button" class="custom-button">Button text <span aria-hidden="true">&rarr;</span></button>
-            </div>
-          </div>
-          <div class="card">
-            <div class="cardMedia">
-              <img
-                src="https://paramountpropertiesltd.net/wp-content/uploads/Residencia-Bento-aerial-preview.jpg"
-                alt="This is a random property based in a caribbeans sunny and warm environment."
-              />
-            </div>
-            <div class="cardContent">
-              <h3>Sable Hollow.</h3>
-              <p>
-                Enveloped in mystery and charm, Sable Hollow is a unique house with dark, rich wood finishes and cozy, intimate spaces. It
-                is the perfect blend of rustic and modern, providing a warm and inviting atmosphere.
-              </p>
-              <button type="button" class="custom-button">Button text <span aria-hidden="true">&rarr;</span></button>
-            </div>
-          </div>
-          <div class="card">
-            <div class="cardMedia">
-              <img
-                src="https://paramountpropertiesltd.net/wp-content/uploads/villa-bento-preview.jpg"
-                alt="This is a random property based in a caribbeans sunny and warm environment."
-              />
-            </div>
-            <div class="cardContent">
-              <h3>Crystal Vale.</h3>
-              <p>
-                Crystal Vale is a modern marvel, characterized by its sleek, glass architecture and minimalist design. The house offers
-                stunning panoramic views and an open, layout that creates a space for contemporary living.
-              </p>
-              <button type="button" class="custom-button">Button text <span aria-hidden="true">&rarr;</span></button>
-            </div>
-          </div>
-          <div class="card">
-            <div class="cardMedia">
-              <img
-                src="https://paramountpropertiesltd.net/wp-content/uploads/Villa-Tradewinds-aerial-preview.jpg"
-                alt="This is a random property based in a caribbeans sunny and warm environment."
-              />
-            </div>
-            <div class="cardContent">
-              <h3>Emberfall Cottage.</h3>
-              <p>
-                A quaint and charming abode, Emberfall Cottage is reminiscent of a storybook home. With its thatched roof, blooming flower
-                beds, and cozy interiors, this house exudes warmth and homeliness.
-              </p>
-              <button type="button" class="custom-button">Button text <span aria-hidden="true">&rarr;</span></button>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- Section End: Featured Properties -->
-      <section id="benifits" role="row" aria-label="Benfits of Paramount Properties Antigua">
-        <div class="benifits-option">
-          <div class="benifits-option-supporting">
-            <h2>Get The Best Deals For Your Property With Us! All At The Comfort Of Your Home.</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima corporis at ipsum architecto autem, adipisci veritatis aliquam
-              tenetur expedita dolore maxime quidem culpa eos nulla accusamus, sapiente cupiditate, neque laboriosam?
-            </p>
-          </div>
-          <div class="benifits-option-explination">
-            <img src="/real-estate/assets/image/Jolly-Harbour-Villa-living-650x650.jpg" alt="" class="" />
-          </div>
-        </div>
-        <div class="benifits-option">
-          <div class="benifits-option-supporting">
-            <h2>Experience the best real estate in Antigua with Paramount Properties.</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima corporis at ipsum architecto autem, adipisci veritatis aliquam
-              tenetur expedita dolore maxime quidem culpa eos nulla accusamus, sapiente cupiditate, neque laboriosam?
-            </p>
-          </div>
-          <div class="benifits-option-explination">
-            <img src="/real-estate/assets/image/port-building-side-view-angle-650x650.jpg" alt="" class="" />
-          </div>
-        </div>
-      </section>
-      <!-- Section End: Benfitis of Paramount Properties Antigua -->
-      <section id="listings" class="listings" role="row" aria-label="">
-        <h2>Popular Listings</h2>
-        <div class="listing-background"></div>
-        <div class="listings-container">
-          <div class="listings-content">
+      </div>
+    </header>
+    <section id="hero" role="banner" aria-label="Hero Section">
+      <div class="hero-content">
+        <div class="hero-content-grid">
+          <div class="hero-content-grid-item">
             <span>
-              <h3>Jolly Harbour Villa</h3>
-              <p>Resedency Property</p>
+              <h1>Explore Your Dream Homes</h1>
+              <p>The Odin Project Real Estate</p>
             </span>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi iure eligendi tempora error ipsum accusantium, tempore
-              voluptatum eaque, eveniet rerum, doloribus assumenda perspiciatis quisquam? Accusantium quae voluptatem molestias omnis nobis?
+              Discover the perfect blend of comfort and style with The Odin Project Real Estate. From seaside retreats
+              like Azure Hearth
+              to eco-friendly havens like Verdant Haven, find homes that suit your lifestyle. Explore our curated
+              listings and start your
+              journey to finding your ideal home today.
             </p>
+            <button>Hello World</button>
           </div>
-          <div class="listings-media">
-            <img src="https://picsum.photos/450/450" alt="" class="" />
+          <!-- End of Hero Content -->
+          <div class="hero-content-grid-item2">
+            <h2>Filter through our property.</h2>
+            <form class="filter">
+              <legend class="filter-items">
+                <label for="hello-world">Types of Properties</label>
+                <input value="hello world" type="text" />
+              </legend>
+              <legend class="filter-items">
+                <label for="hello-world">Property Locations</label>
+                <input value="hello world" type="text" />
+              </legend>
+              <legend class="filter-items">
+                <label for="hello-world">For Rent or For Sale</label>
+                <input value="hello world" type="text" />
+              </legend>
+              <legend class="filter-range">
+                <span>
+                  <p>Price range</p>
+                  <p id="range-value">Number</p>
+                </span>
+                <input type="range" value="5000" id="price-range" min="0" max="10000" value="5000" />
+              </legend>
+              <legend class="filer-submission">
+                <input type="submit" value="Search Properties" />
+              </legend>
+            </form>
           </div>
         </div>
-      </section>
-      <!-- Section End: Listings -->
-      <section id="call-to-action" class="call-to-action" role="row" aria-label="Talk with an representative">
-        <div class="cta-container">
-          <h2>Ready to embrace the tropical lifestyle of your dreams? Book your free consultation with our expert today</h2>
+      </div>
+      <div class="hero-filter"></div>
+      <div class="hero-media">
+        <img src="/real-estate/assets/image/hero-image.jpg" alt="Descriptive Alt Text" />
+      </div>
+    </section>
+    <!-- Section End: Hero -->
+    <section class="featured-properties">
+      <h2 class="">Featured Properties</h2>
+      <div class="featured-properties-grid">
+        <!-- Grid Items Represent Cards -->
+        <div class="card">
+          <div class="cardMedia">
+            <img src="https://paramountpropertiesltd.net/wp-content/uploads/marina-bay-aerial-preview.jpg"
+              alt="This is a random property based in a caribbeans sunny and warm environment." />
+          </div>
+          <div class="cardContent">
+            <h3>Azure Hearth.</h3>
+            <p>
+              Nestled by the tranquil sea, Azure Hearth is known for its stunning ocean views and soothing ambiance. The
+              house features
+              expansive windows that let in the natural light, creating a serene atmosphere perfect for relaxation.
+            </p>
+            <button type="button" class="custom-button">Button text <span aria-hidden="true">&rarr;</span></button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cardMedia">
+            <img src="https://paramountpropertiesltd.net/wp-content/uploads/north-villa-moon-preview.jpg"
+              alt="This is a random property based in a caribbeans sunny and warm environment." />
+          </div>
+          <div class="cardContent">
+            <h3>Verdant Haven.</h3>
+            <p>
+              Surrounded by lush gardens and towering trees, Verdant Haven is a sanctuary for nature lovers. The house
+              boasts eco-friendly
+              designs and an abundance of greenery both inside and out, offering a peaceful retreat.
+            </p>
+            <button type="button" class="custom-button">Button text <span aria-hidden="true">&rarr;</span></button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cardMedia">
+            <img src="https://paramountpropertiesltd.net/wp-content/uploads/north-villa-sun-preview.jpg"
+              alt="This is a random property based in a caribbeans sunny and warm environment." />
+          </div>
+          <div class="cardContent">
+            <h3>Stonegate Manor.</h3>
+            <p>
+              A stately and grand abode, Stonegate Manor exudes an air of timeless elegance. With its classic
+              architectural design, this
+              house features spacious rooms, high ceilings, and intricate stonework.
+            </p>
+            <button type="button" class="custom-button">Button text <span aria-hidden="true">&rarr;</span></button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cardMedia">
+            <img src="https://paramountpropertiesltd.net/wp-content/uploads/Residencia-Bento-aerial-preview.jpg"
+              alt="This is a random property based in a caribbeans sunny and warm environment." />
+          </div>
+          <div class="cardContent">
+            <h3>Sable Hollow.</h3>
+            <p>
+              Enveloped in mystery and charm, Sable Hollow is a unique house with dark, rich wood finishes and cozy,
+              intimate spaces. It
+              is the perfect blend of rustic and modern, providing a warm and inviting atmosphere.
+            </p>
+            <button type="button" class="custom-button">Button text <span aria-hidden="true">&rarr;</span></button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cardMedia">
+            <img src="https://paramountpropertiesltd.net/wp-content/uploads/villa-bento-preview.jpg"
+              alt="This is a random property based in a caribbeans sunny and warm environment." />
+          </div>
+          <div class="cardContent">
+            <h3>Crystal Vale.</h3>
+            <p>
+              Crystal Vale is a modern marvel, characterized by its sleek, glass architecture and minimalist design. The
+              house offers
+              stunning panoramic views and an open, layout that creates a space for contemporary living.
+            </p>
+            <button type="button" class="custom-button">Button text <span aria-hidden="true">&rarr;</span></button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cardMedia">
+            <img src="https://paramountpropertiesltd.net/wp-content/uploads/Villa-Tradewinds-aerial-preview.jpg"
+              alt="This is a random property based in a caribbeans sunny and warm environment." />
+          </div>
+          <div class="cardContent">
+            <h3>Emberfall Cottage.</h3>
+            <p>
+              A quaint and charming abode, Emberfall Cottage is reminiscent of a storybook home. With its thatched roof,
+              blooming flower
+              beds, and cozy interiors, this house exudes warmth and homeliness.
+            </p>
+            <button type="button" class="custom-button">Button text <span aria-hidden="true">&rarr;</span></button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section End: Featured Properties -->
+    <section id="benifits" role="row" aria-label="Benfits of Paramount Properties Antigua">
+      <div class="benifits-option">
+        <div class="benifits-option-supporting">
+          <h2>Get The Best Deals For Your Property With Us! All At The Comfort Of Your Home.</h2>
           <p>
-            "Dreaming of a tropical lifestyle? Discover how you can make it a reality with our expert guidance. Book your free consultation
-            today and start your journey to paradise!"
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima corporis at ipsum architecto autem, adipisci
+            veritatis aliquam
+            tenetur expedita dolore maxime quidem culpa eos nulla accusamus, sapiente cupiditate, neque laboriosam?
           </p>
-          <div>
-            <button type="button" class="">Book A Session</button>
-            <button type="button" class="">View Properties</button>
-          </div>
         </div>
-      </section>
-    </main>
-  </body>
+        <div class="benifits-option-explination">
+          <img src="/real-estate/assets/image/Jolly-Harbour-Villa-living-650x650.jpg" alt="" class="" />
+        </div>
+      </div>
+      <div class="benifits-option">
+        <div class="benifits-option-supporting">
+          <h2>Experience the best real estate in Antigua with Paramount Properties.</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima corporis at ipsum architecto autem, adipisci
+            veritatis aliquam
+            tenetur expedita dolore maxime quidem culpa eos nulla accusamus, sapiente cupiditate, neque laboriosam?
+          </p>
+        </div>
+        <div class="benifits-option-explination">
+          <img src="/real-estate/assets/image/port-building-side-view-angle-650x650.jpg" alt="" class="" />
+        </div>
+      </div>
+    </section>
+    <!-- Section End: Benfitis of Paramount Properties Antigua -->
+    <section id="listings" class="listings" role="row" aria-label="">
+      <h2>Popular Listings</h2>
+      <div class="listing-background"></div>
+      <div class="listings-container">
+        <div class="listings-content">
+          <span>
+            <h3>Jolly Harbour Villa</h3>
+            <p>Resedency Property</p>
+          </span>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi iure eligendi tempora error ipsum
+            accusantium, tempore
+            voluptatum eaque, eveniet rerum, doloribus assumenda perspiciatis quisquam? Accusantium quae voluptatem
+            molestias omnis nobis?
+          </p>
+        </div>
+        <div class="listings-media">
+          <img src="https://picsum.photos/450/450" alt="" class="" />
+        </div>
+      </div>
+    </section>
+    <!-- Section End: Listings -->
+    <section id="call-to-action" class="call-to-action" role="row" aria-label="Talk with an representative">
+      <div class="cta-container">
+        <h2>Ready to embrace the tropical lifestyle of your dreams? Book your free consultation with our expert today
+        </h2>
+        <p>
+          "Dreaming of a tropical lifestyle? Discover how you can make it a reality with our expert guidance. Book your
+          free consultation
+          today and start your journey to paradise!"
+        </p>
+        <div>
+          <button type="button" class="">Book A Session</button>
+          <button type="button" class="">View Properties</button>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
 </html>
