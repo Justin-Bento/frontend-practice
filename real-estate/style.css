@@ -466,6 +466,7 @@ p {
 #listings {
   margin: 4rem auto;
   max-width: 1336px;
+  padding: 0rem 4rem;
 }
 .listings h2 {
   font-size: 2rem; /* 24px */
@@ -514,7 +515,7 @@ p {
     position: relative;
   }
   .listing-background {
-    width: 60%;
+    width: 80%;
     height: 80%;
     background-color: var(--gray-200);
     position: absolute;
