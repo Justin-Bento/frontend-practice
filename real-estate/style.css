@@ -26,9 +26,9 @@
 /* Style for the navigation bar */
 
 @font-face {
-  font-family: "Supreme";
+  font-family: 'Supreme';
   /* The name you want to use for the font */
-  src: url("/real-estate/assets/fonts/Supreme-Variable.ttf") format("truetype");
+  src: url('/real-estate/assets/fonts/Supreme-Variable.ttf') format('truetype');
   /* You can include additional font file formats (e.g., .ttf, .eot) if needed */
   font-weight: 100 - 900; /* Font weight (e.g., normal, bold) */
   font-style: normal; /* Font style (e.g., normal, italic) */
@@ -462,7 +462,6 @@ p {
     @media (min-width: 1536px) {}
 */
 
-
 /* Secttion Start: Popular Listings */
 #listings {
   margin: 4rem auto;
@@ -504,13 +503,13 @@ p {
   letter-spacing: 0.025rem;
   color: var(--matisse-700);
 }
-.listings-content  p {
+.listings-content p {
   font-size: 1rem;
   letter-spacing: 1.5;
 }
 /* @media (min-width: 640px) { } */
 /* @media (min-width: 768px) { } */
-@media (min-width: 1024px) { 
+@media (min-width: 1024px) {
   .listings {
     position: relative;
   }
@@ -567,16 +566,16 @@ p {
   margin-top: 1.5rem;
 }
 .cta-container div button:first-of-type {
-    display: inline-block;
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
-    font-weight: 600;
-    color: #fff;
-    background-color: var(--gray-700);
-    border: 2px solid var(--gray-700);
-    border-radius: 0.375rem;
-    cursor: pointer;
-    transition: background-color 0.2s, transform 0.2s;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: var(--gray-700);
+  border: 2px solid var(--gray-700);
+  border-radius: 0.375rem;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.2s;
 }
 .cta-container div button:hover {
   background-color: var(--gray-800);
@@ -594,16 +593,16 @@ p {
   text-decoration: underline;
 }
 .cta-container div button:last-of-type {
-    display: inline-block;
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
-    font-weight: 600;
-    color: var(--gray-100);
-    border: 2px solid var(--gray-700);
-    background-color: transparent;
-    border-radius: 0.375rem;
-    cursor: pointer;
-    transition: background-color 0.2s, transform 0.2s;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--gray-100);
+  border: 2px solid var(--gray-700);
+  background-color: transparent;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.2s;
 }
 .cta-container div button:hover {
   background-color: var(--gray-800);
