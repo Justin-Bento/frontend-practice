@@ -27,6 +27,11 @@ select {
   font: inherit;
 }
 
+.product-card {
+  padding: 1rem;
+  margin-top: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
 .product-card h2 {
   font-size: 20px;
   letter-spacing: 0.012rem;
