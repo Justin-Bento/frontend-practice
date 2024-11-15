@@ -1,20 +1,21 @@
 const mainApp = document.querySelector("#app");
 
-// Create a new heading element and paragraph element
-const heading = document.createElement("h2");
-const para = document.createElement("p");
-
-fetch("https://dummyjson.com/products/1")
+fetch("https://dummyjson.com/products")
   .then((res) => res.json())
-  .then((req) => {
-    // Update the heading with the product title
-    const headingNode = document.createTextNode(req.title); // Use the fetched title
-    heading.appendChild(headingNode); // Add the title text to the heading
-    mainApp.appendChild(heading); // Append the heading to the mainApp
+  .then((data) => {
+    // Iterate through the first 12 products
+    data.products.slice(0, 12).forEach((product) => {
+      // Create a heading for the product title
+      const heading = document.createElement("h2");
+      heading.textContent = product.title; // Set the title text
 
-    // Update the paragraph with the product description
-    const node = document.createTextNode(req.description); // Use the fetched description
-    para.appendChild(node); // Add the description text to the paragraph
-    mainApp.appendChild(para); // Append the paragraph to the mainApp
+      // Create a paragraph for the product description
+      const para = document.createElement("p");
+      para.textContent = product.description; // Set the description text
+
+      // Append the heading and paragraph to the main container
+      mainApp.appendChild(heading);
+      mainApp.appendChild(para);
+    });
   })
-  .catch((error) => console.error("Error fetching product:", error));
+  .catch((error) => console.error("Error fetching products:", error));
