@@ -26,3 +26,10 @@ button,
 select {
   font: inherit;
 }
+
+.product-card h2 {
+  font-size: 20px;
+  letter-spacing: 0.012rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}
