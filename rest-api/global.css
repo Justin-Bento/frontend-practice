@@ -10,7 +10,7 @@
 }
 body {
   min-height: 100dvh;
-  font-family: "Supreme", sans-serif;
+  font-family: Helvetica, sans-serif;
   background-color: var(--background);
 }
 img,
