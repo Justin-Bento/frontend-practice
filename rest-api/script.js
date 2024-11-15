@@ -1,7 +1,5 @@
+const mainApp = document.querySelector("#app");
+
 fetch("https://dummyjson.com/products/1")
   .then((res) => res.json())
-  .then(
-    (req) =>
-      (document.querySelector("#app").textContent = req.title)
-      // ...
-  );
+  .then((req) => (mainApp.textContent = req.title));
