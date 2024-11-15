@@ -33,3 +33,10 @@ select {
   font-weight: 700;
   text-transform: capitalize;
 }
+
+.product-card p {
+  font-size: 1rem;
+  letter-spacing: 0.012rem;
+  font-weight: 400;
+  text-wrap: balance;
+}
