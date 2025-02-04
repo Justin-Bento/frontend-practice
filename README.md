@@ -7,9 +7,16 @@ This document you're reading is the parent folder, where all projects related to
 - Project Start Date: 
 - Project End Date: 
 
-# Features 
+## Features 
 
 - Mobile-First design approach.
 - Light and Dark Mode 
 - Basic JavaScript dynamic interaction. 
 - Unique variables to help align project design. 
+
+## Technologies
+
+- Hyper Text Markup Language 5 (HTML5)
+- Cascading Style Sheet (CSS3)
+- JavaScript or EcmaScript 3. 
+- Webpack 
