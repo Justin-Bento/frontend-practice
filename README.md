@@ -20,3 +20,26 @@ This document you're reading is the parent folder, where all projects related to
 - Cascading Style Sheet (CSS3)
 - JavaScript or EcmaScript 3. 
 - Webpack 
+
+## Run Locally 
+
+Change directory where you keep your development projects.
+
+'''bash
+    cd path/to/project-name
+'''
+Grab the repository URL and clone the project onto your system. 
+ 
+'''bash
+    git clone https://url
+'''
+
+Hop into the folder and open Visual Studio Code through the terminal. 
+'''bash
+cd path-name
+'''
+'''bash
+code . 
+'''
+
+Run this project with an html live dev server extension. 
