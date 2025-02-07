@@ -50,3 +50,8 @@ Start the server using VS Code extention called "Live Server"
 2. The project had multiple remote GitHub URLs, which caused confusion with Git and Github service. To streamline the setup, I consolidated everything into the parent folder, removing all additional remote URLs.
 3. During deployment, I poundered how users would navigate between different projects. To address this, I created a main `index.html` file that serves as a hub, linking to the other projects within the folder for easy access.
 
+## Lessons Learned
+
+1. **Link Management**: When working within subfolders, it's crucial to carefully manage and update links to CSS, JavaScript, and Git files. I learned that failing to do so can result in broken links and disrupt the overall functionality. Ensuring relative paths are correct across all files is key.
+2. **Remote URL Cleanup**: Having multiple remote URLs for GitHub caused confusion and clutter in the repository. I learned the importance of consolidating repositories into a single remote URL to keep the project structure clean and manageable.
+3. **Deployment Navigation**: When deploying multiple projects within a folder, user navigation can become tricky. I learned that creating a central `index.html` file to link to the different projects provides a simple and effective way for users to access and explore all parts of the project seamlessly.
