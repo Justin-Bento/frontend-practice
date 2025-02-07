@@ -21,25 +21,25 @@ This document you're reading is the parent folder, where all projects related to
 - JavaScript or EcmaScript 3. 
 - Webpack 
 
-## Run Locally 
 
-Change directory where you keep your development projects.
+## Run Locally
 
-'''bash
-    cd path/to/project-name
-'''
-Grab the repository URL and clone the project onto your system. 
- 
-'''bash
-    git clone https://url
-'''
+Clone the project
 
-Hop into the folder and open Visual Studio Code through the terminal. 
-'''bash
-cd path-name
-'''
-'''bash
-code . 
-'''
+```bash
+  git clone git@github.com:Justin-Bento/frontend-practice.git
+```
 
-Run this project with an html live dev server extension. 
+Go to the project directory
+
+```bash
+  cd path/to/frontend-practice
+```
+
+Open Visual Studio Code
+
+```bash
+  code .
+```
+
+Start the server using VS Code extention called "Live Server"
